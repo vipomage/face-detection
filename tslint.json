@@ -1,8 +1,5 @@
 {
   "extends": "tslint:recommended",
-  "rulesDirectory": [
-    "codelyzer"
-  ],
   "rules": {
     "align": {
       "options": [
@@ -43,7 +40,7 @@
         ]
       }
     ],
-    "no-any": true,
+    "no-any": false,
     "no-console": [
       true,
       "debug",
@@ -122,6 +119,7 @@
         "check-typecast"
       ]
     },
+    "no-trailing-whitespace": false,
     "component-class-suffix": true,
     "contextual-lifecycle": true,
     "directive-class-suffix": true,

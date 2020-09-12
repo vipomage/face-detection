@@ -1,0 +1,13 @@
+<div #container class="container video-container card p-0 m-0 justify-content-center">
+  
+  <video *ngIf="videoStream"
+    class="video-element "
+    #videoElement
+    [width]="videoOptions.width"
+    [height]="videoOptions.height"
+    [attr.autoplay]="videoOptions.autoplay"
+    [attr.muted]="videoOptions.muted"
+    [srcObject]="videoStream"
+  ></video>
+  
+</div>
